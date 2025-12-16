@@ -1,7 +1,4 @@
 package edu.ucam.calidad.integracion_continua.domain;
-
-// Importante: Asegúrate de importar JUnit correctamente. 
-// Si te sale error aquí, puede que necesites añadir JUnit 4 al Build Path o al pom.xml
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 

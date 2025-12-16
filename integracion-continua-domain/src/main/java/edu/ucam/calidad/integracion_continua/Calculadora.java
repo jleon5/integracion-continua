@@ -1,4 +1,4 @@
-package edu.ucam.calidad;
+package edu.ucam.calidad.integracion_continua.domain;
 
 public class Calculadora {
 
