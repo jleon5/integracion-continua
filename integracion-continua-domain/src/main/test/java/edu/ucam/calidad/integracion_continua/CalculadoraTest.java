@@ -3,7 +3,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CalculadoraTest {
-
+		FalloProvocado
+	
     @Test
     public void testSumar() {
         Calculadora calc = new Calculadora();
