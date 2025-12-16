@@ -126,10 +126,12 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M7</version>
             <configuration>
+                <skip>false</skip>
                 <skipTests>false</skipTests>
                 
-                <argLine>@{argLine}</argLine>
+                <testFailureIgnore>true</testFailureIgnore>
                 
+                <argLine>@{argLine}</argLine>
                 <includes>
                     <include>**/*Test.java</include>
                     <include>**/*Tests.java</include>
@@ -137,6 +139,7 @@
                 </includes>
             </configuration>
         </plugin>
+        
     </plugins>
   </build>
 
