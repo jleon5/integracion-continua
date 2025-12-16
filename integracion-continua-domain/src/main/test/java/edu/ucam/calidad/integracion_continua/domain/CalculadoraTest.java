@@ -1,4 +1,4 @@
-package edu.ucam.calidad.integracion_continua.domain;
+package edu.ucam.calidad.integracion_continua;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
