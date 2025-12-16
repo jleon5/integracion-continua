@@ -100,7 +100,7 @@
 <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://192.168.56.1/repository/maven-snapshots/</url>
+      <url>http://host.docker.internal:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
